@@ -23,6 +23,7 @@
 		2B89938016BC1E4400642D1F /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B89937F16BC1E4400642D1F /* Default@2x.png */; };
 		2B89938216BC1E4400642D1F /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2B89938116BC1E4400642D1F /* Default-568h@2x.png */; };
 		2B89939316BC1F8400642D1F /* URBSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B89939216BC1F8400642D1F /* URBSegmentedControl.m */; };
+		2F79485C17EEA23F00A69369 /* PKSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F79485B17EEA23F00A69369 /* PKSegmentedControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,8 @@
 		2B89938116BC1E4400642D1F /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		2B89939116BC1F8400642D1F /* URBSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = URBSegmentedControl.h; path = ../URBSegmentedControl.h; sourceTree = "<group>"; };
 		2B89939216BC1F8400642D1F /* URBSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = URBSegmentedControl.m; path = ../URBSegmentedControl.m; sourceTree = "<group>"; };
+		2F79485A17EEA23F00A69369 /* PKSegmentedControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PKSegmentedControl.h; path = URBSegmentedControlDemo/PKSegmentedControl.h; sourceTree = "<group>"; };
+		2F79485B17EEA23F00A69369 /* PKSegmentedControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PKSegmentedControl.m; path = URBSegmentedControlDemo/PKSegmentedControl.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +82,8 @@
 		2B89935C16BC1E4400642D1F = {
 			isa = PBXGroup;
 			children = (
+				2F79485A17EEA23F00A69369 /* PKSegmentedControl.h */,
+				2F79485B17EEA23F00A69369 /* PKSegmentedControl.m */,
 				2B89939116BC1F8400642D1F /* URBSegmentedControl.h */,
 				2B89939216BC1F8400642D1F /* URBSegmentedControl.m */,
 				2B89937116BC1E4400642D1F /* URBSegmentedControlDemo */,
@@ -204,6 +209,7 @@
 				2B89937816BC1E4400642D1F /* main.m in Sources */,
 				2B89937C16BC1E4400642D1F /* AppDelegate.m in Sources */,
 				2B89939316BC1F8400642D1F /* URBSegmentedControl.m in Sources */,
+				2F79485C17EEA23F00A69369 /* PKSegmentedControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
